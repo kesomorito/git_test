@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    font:16px/1.5 Arial, Helvetica, sans-serif;
+    background:#c2c2c2;
+}
+
+
+/* Global CSS */
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+.btnSubmit{
+    height:31px;
+    background:#e8491d;
+    padding:0 20px;
+    color:#fff;
+    font-size:16px;
+}
+/* Header */
+header{
+    background:#35424a;
+    color:#fff;
+    padding:30px;
+    min-height:70px;
+    border-bottom:3px solid #e8491d;
+}
+
+header a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header li{
+    float:left;
+    display: inline;
+    padding:0 20px;
+
+}
+header .branding{
+    float:left;
+}
+header .branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top:15px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color:#ccc;
+
+}
+
+.showcase{
+    min-height:400px;
+    background-image: linear-gradient(rgba(163, 76, 180, 0.829), rgba(0, 0, 0, 0.4)), url("../assets/img/showcase.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#fff;
+}
+
+.showcase h1{
+    margin-top:100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+.showcase p{
+    font-size: 20px;
+}
+
+.newsletter{
+    padding:15px;
+    color:#fff;
+    background: #35424a;
+}
+.newsletter h2{
+    float:left;
+    
+}
+.newsletter form{
+    float: right;
+    margin-top:5px
+}
+
+.newsletter input[type="email"]{
+    padding:5px;
+    height:30px;
+    width:250px;
+}
+
+.boxes .container{
+
+    margin-top:40px;
+    
+ 
+}
+
+.boxes .container{
+    display: flex;
+  
+}
+.boxes .container .box{
+    display: flex;
+    padding:5px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:30px;
+
+}
+
+.box img{
+    width:30%;
+    height: auto;
+    margin-bottom:20px;
+}
+.box h1,p{
+    margin:20px auto;
+    text-align:Center;
+    font-size:14px;
+}
+
+footer{
+    display: flex;
+    background-color: #e8491d;
+    height:150px;
+
+   
+}
+footer p{
+    
+    text-align: center;
+    color:#fff;
+    font-size:18px;
+    padding-top:50px;
+}
